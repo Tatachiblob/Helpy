@@ -1,0 +1,102 @@
+body{
+	background:#F2F2F2;
+}
+.btnMenuBars:focus{
+	outline: 0px auto -webkit-focus-ring-color!important;
+}
+
+#jumbotronBG{
+	background:url("img/dlsu skyline(3).jpg") no-repeat;
+	background-size:cover;
+	position:relative;
+}
+#secondJumbotronBG{
+	background:url("img/IMG_1728.JPG") no-repeat;
+	background-size:cover;
+	position:relative;	
+}
+#rightSide{
+	width:50%!important;
+	margin-right:-10%;
+}
+.txtFontSize{
+	font-size:180%!important;
+	letter-spacing:1.5px;
+}
+.getStartedBtn{
+	width:30%;
+	margin-top:5%;
+}
+#thirdJumbotronBG{
+	background:url("img/secondImage.png") no-repeat;
+	background-size:cover;
+	position:relative;	
+	margin-top:-2.5%;
+}
+#leftSide{
+	width:50%!important;
+	margin-left:-10%;
+}
+#fourthJumbotronBG{
+	background:url("img/helpypartners23.jpg") no-repeat;
+	background-size:cover;
+	margin-top:-2.5%;
+}
+
+.rightPartOfFourth{
+	margin-right:8%;
+}
+.leftPartOfFourth{
+
+}
+.jumbotron{
+	
+	width: auto;
+}
+@media only screen and (max-width: 500px) {
+	/*	Top part of the web  */
+	.navigationBarImage{
+		width:50%;
+	}
+	.menuFourBars{
+		font-size: 230%!important;
+		color:white!important;
+	}
+	.btnMenuBars{
+		border:0;
+	}
+	.mainText{
+		font-size:320%!important;
+	}
+	.topTxt{
+		font-size:130%!important;
+	}
+	.searchBar{
+		width:99%!important;
+	}
+	/*Web Content*/
+	.getStartedBtn{
+		width:90%;
+	}
+	.secondPartMobileImg{
+		width:100%!important;
+		margin-top:-15%;
+	}
+	#secondJumbotronBG{
+		background:transparent!important;
+	}
+	.txtFontSize{
+		letter-spacing:1.5px;
+		font-size:140%!important;
+		width:99%!important;
+		color:white;
+	}
+	.leftSide{
+		width:49%;
+	}
+	.rightSide{
+		width:49%;
+	}
+	
+	
+}

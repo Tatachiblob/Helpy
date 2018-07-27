@@ -1,0 +1,18 @@
+
+.bs-popover-auto[x-placement^=right] .arrow::after, .bs-popover-right .arrow::after{
+	border-right-color:#e53935!important; 	
+}
+.bs-popover-auto[x-placement^=top] .arrow::after, .bs-popover-top .arrow::after{
+	border-top-color:#e53935!important; 
+}
+.bs-popover-auto[x-placement^=bottom] .arrow::after, .bs-popover-bottom .arrow::after{
+	border-bottom-color:#e53935!important; 
+}
+.bs-popover-auto[x-placement^=left] .arrow::after, .bs-popover-left .arrow::after{
+	border-left-color:#e53935!important; 
+}
+.popover-body,.popover{
+background:#e53935;	
+color:white;
+
+}

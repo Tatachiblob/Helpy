@@ -1,0 +1,62 @@
+	body{
+		
+	}
+	/* Navigation bar style */
+	.navbar{
+		width:85%!important;
+		margin-left:15%!important;
+	}
+	/* Side navigation bar style */
+	
+	.sidenav {
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+	  	background-color:#1c2a48; 
+		overflow-x: hidden;
+		padding-top: 20px;
+	}
+
+	.sidenav a {
+		padding: 6px 8px 6px 16px;
+		text-decoration: none;
+		font-size: 80%;
+		color: #818181;
+		display: block;
+	}
+	.sidebarItem:hover{
+		cursor:default;
+		color:white;
+	}
+	#adminDashboard{
+		margin-left:5%!important;
+	}
+	.activeTab{
+/* 		border:.5px solid #EA4335!important; */
+		border-left:0;
+		border-right:0;
+  		background:#1c2331;
+		color:white;
+		padding-bottom:.5%!important;
+	}
+	.dropdownJob:hover{
+		cursor:default;
+		color:white;	
+	}
+	.activeDropdownJobs, .activeDropdownJobs:hover {
+		cursor:default;
+		background:#e6e2d3;
+		color:#3e4444;		
+	}
+	.col-form-label,.changePassLbL{
+		font-size:80%!important;
+	}
+	.createAcctBtn{
+		margin-right:13.5%!important;
+	}
+	#adminDashboard{
+		margin-left:15%!important;
+	}

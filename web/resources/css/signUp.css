@@ -1,0 +1,139 @@
+.upperText{
+	font-size:270%;
+}
+.card{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.form-control,#telephoneNumber{
+	width:85%!important;
+}
+.btn{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	width:30%;
+}
+.btn:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.alertMessage{
+	width:90%;
+	display:none;
+}
+#alreadyHaveAccount:hover{
+	color:red;
+	font-weight:105%;
+}
+.nameMessage{
+	display:none;
+}
+
+
+
+
+#myOverlay{
+	height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s;
+}
+.overlayContent{
+	position: relative;
+    top: 25%;
+    width: 100%; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 90%!important;
+    line-height: 3;
+}
+
+
+/* Mobile Phone View */
+@media only screen and (max-width: 768px) {
+	.navigationBarImage{
+		width: 35%!important;
+	}
+	.bars{
+		font-size: 200%!important;
+	}
+	.form-control,#telephoneNumber,.alertMessage{
+		width:95%!important;
+	}
+	.card{
+		box-shadow:0px 0px 0px 0px!important;
+		width:100%!important;
+		border-radius: 2px!important;
+		margin-bottom:10%;
+		border:0!important;
+		
+	}
+	.formBtn{
+		width:100%!important;
+	}
+}
+
+/*Tablet View */
+@media only screen and (min-width: 600px) {
+	.formBtn{
+		margin-left:auto!important;
+		margin-right:auto!important;
+	}
+	.upperText{
+		font-size:450%!important;
+	}
+	.navigationBarImage{
+		width: 20%!important;
+	}
+	.bars{
+		font-size: 250%!important;
+		color:white;
+	}
+	.form-control,#telephoneNumber,.alertMessage{
+		width:84%!important;
+	}
+	.card{
+		box-shadow:0px 0px 0px 0px !important;
+		width:90%!important;
+		border-radius: 2px!important;
+		margin-bottom:10%;
+		border:0!important;
+	}
+	.formBtn{
+		width:100%!important;
+	}
+}
+
+/* Desktop View */
+@media only screen and (min-width: 700px) {
+	.upperText{
+		font-size:250%!important;
+	}
+	.navigationBarImage{
+		width: 15%!important;
+	}
+	.bars{
+		font-size: 100%!important;
+		color:white;
+	}
+	.form-control,#telephoneNumber,.alertMessage{
+		width:32%;
+	}
+	.card{
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+		width:31%!important;
+		border-radius: 2px!important;
+		margin-bottom:10%;
+		border:0!important;
+		
+	}	
+}

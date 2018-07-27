@@ -1,0 +1,64 @@
+body{
+	background:#e8e8e8;
+}
+.navbar{
+	background-color: rgba(52, 58, 64,0.5)!important;
+}
+#topImage{
+	height:720px!important;
+	margin-top:-6%!important;
+	background:url("/css/img/ImgBgOppurtunities.JPG") no-repeat;
+	background-size: 100% 120%;
+}
+.jumbotronTxt{
+	z-index: 5;
+	margin-top:25%!important;
+}
+.helpyTxt{
+	font-family:Ubuntu;
+	font-size: 620%!important;	
+}
+.txtHelpyWebContent{
+	font-family:Ubuntu;	
+	font-size: 420%!important;
+	letter-spacing:-3.5px;
+}
+
+@media only screen and (max-width: 500px) {
+	.cardTxtWithLogo{
+		width:100%!important;
+	}
+	#topImage{
+		height:320px!important;
+		background:url("/css/img/ImgBgOppurtunities.JPG") no-repeat;
+		background-size: 100% 100%;
+		margin-bottom:-5px!important;
+	}	
+	.helpyTxt{
+		font-family:Ubuntu;
+		font-size: 620%!important;
+		letter-spacing:-7.0px!important;
+	
+	}	
+	.navbar{
+		color:white!important;
+		background-color: rgba(52, 58, 64)!important;
+	}
+	.btnMenuBars:focus{
+		outline: 0px auto -webkit-focus-ring-color!important;
+	}
+	.navbar-dark, .navbar-toggler{
+		border:none;
+		outline:none;
+		border-color:0px!important;
+	}
+	.btnMenuBars{
+		float:right!important;
+	}
+	ul{
+		font-size:90%!important;
+	}
+	.txtHelpyWebContent{
+		font-size:280%!important;
+	}
+}

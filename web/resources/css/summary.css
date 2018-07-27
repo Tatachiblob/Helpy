@@ -1,0 +1,23 @@
+body{
+	background: #343a40 !important;
+}
+.label{
+	text-align:right;
+}
+h6{
+	font-size:90%!important;
+}
+.col-3{
+	margin-top:2%!important;
+}
+
+.agreeToTermsConditionsStyle{
+	margin-left:38%!important;
+}
+
+@media only screen and (max-width: 768px) {
+.agreeToTermsConditionsStyle{
+	margin-left:5%!important;
+}	
+	
+}

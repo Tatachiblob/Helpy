@@ -1,0 +1,18 @@
+.helpyLink{
+	cursor:default;
+	font-size:115%!important;
+	text-decoration:none!important;
+	color:rgba(255,255,255,.5)!important;
+}
+.nowLink:hover{
+	color:rgba(255,255,255,.95)!important;
+}
+.partnersLink:hover{
+	color:rgba(255,255,255,.95)!important;	
+}
+.rentsLink:hover{
+	color:rgba(255,255,255,.95)!important;	
+}
+.navbarHelpyLink:hover{
+	cursor:default;	
+}

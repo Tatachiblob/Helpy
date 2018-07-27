@@ -1,0 +1,313 @@
+.btnMenuBars:focus{
+	outline: 0px auto -webkit-focus-ring-color!important;
+}
+
+body{
+	background:#e8e8e8;
+}
+.navbar{
+	background:#F8F8F8!important;
+	z-index: 2;
+}
+#transactionView{
+	display:none; 
+	width:83%!important; 
+	margin-left:16%!important; 
+	margin-top:5%!important; 
+	background:white!important;
+}
+
+.sidenav {
+	margin-top:4%;	
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background:#343a40!important;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.agreeToTermsAndConditions:hover{
+	color:#007bff!important;
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+.brandName{
+	font-family:Ubuntu;
+	font-weight:bolder;
+	color: #428bca!important;
+	font-size:300%!important;
+	margin-top:-1%!important;
+	margin-bottom:-1%!important;
+	margin-left:2%!important;
+	letter-spacing:-5px;
+}
+.dashboardStyle{
+	list-style:none;
+	color:white;
+}
+.txtName{
+	font-size:160%;
+}
+li{
+	font-size:120%;
+	color:gray!important;
+}
+.list-group-item{
+	margin-top:.5%;
+	border:0!important;
+	border-left:5px solid transparent!important;
+	border-radius:0!important;
+	background:transparent!important;
+}
+.list-group-item:hover{
+	border-left:5px solid #343a40!important;
+	cursor:default;	
+	opacity:1.0;
+	color:white!important;
+	background:#898E8C!important;
+}
+.activeSideNavigation{
+	border-left:5px solid #0d47a1!important;
+	cursor:default;	
+	opacity:1.0;
+	color:white!important;
+	background:#898E8C!important;	
+}
+#myTab{
+	margin-left:15%;
+}
+.createRequestForm{
+	margin-top:1%;
+	height:100%;
+/* 	background-image: url("img/helpy_now_recieve.JPG")!important; */
+	background-size:cover;
+	margin-left:15%;
+	background-repeat:no-repeat!important;
+	background-position:center;
+	width:85%;
+}
+.crtRqstBtn{
+	margin:15%;
+}
+.activeRequestsTab{
+	margin-left:15%;
+	width:85%!important;	
+}
+.requestsTable{
+	width:28%!important;
+}
+ .lblField{
+	font-size:90%!important;
+} 
+.custom-control-label{
+	font-size:90%!important;
+}
+.adjustTxtField{
+	margin-right:8.4%!important;
+}
+/*  .modalBody{
+	height:550px!important;
+} 
+ */
+.alignTransOrder{
+/* 	margin: 5px 50px 5px 50px!important; */
+}
+
+.input-group-text{
+	background-color:#d9534f!important;
+	color:white!important;
+	font-weight:bolder!important;
+}
+	
+@media screen and (max-height: 450px) {
+
+	
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* Desktop View */
+@media only screen and (min-width: 768px) {
+	#jobInfoJobDetails{
+		margin-left:-14%!important;
+	}
+	.activeRequests{
+		border-right:1px solid gray!important;
+		border-radius:0px!important;
+	}
+	.brandName{
+		margin-top: -5%!important;
+		margin-bottom: -5%!important;
+		margin-right: -5%!important;
+		margin-left:-3%!important;
+		width:19%!important;
+	}
+	.nav-item{
+		font-size:98%!important;
+	}
+	#qrCodePosition{
+		right:-30%!important;
+	}
+	.settingsIptField{
+		width:90%!important;
+	}
+	#updateUserInformation{
+		width:80%!important; 
+		margin-left:16%!important; 
+		margin-top:5%!important; 
+		margin-bottom:5%!important;
+		background:white!important;
+	}
+	#userNotification{
+		width:80%!important; 
+		margin-left:16%!important; 
+		margin-top:5%!important; 
+		margin-bottom:5%!important;
+	}
+	.notificationCard{
+		width: 80%!important; 
+	}
+	.inProgressTxt{
+		margin-top: -9%!important;
+	}
+
+}
+/* Phone View */
+@media only screen and (max-width: 768px) {
+	.tableHideDesktopView{
+		display:none!important;
+	}
+	#transactionView{
+		width:100%!important;
+		margin-left:0!important;
+		margin-right:0!important;
+		margin-top:15%!important;
+		font-size:80%!important;
+	}
+	.inProgressTxt{
+		margin-top: -5%!important;
+	}
+	.requestsTable{
+		width:100%!important;
+	}
+	.notificationCard{
+		width:100%!important;
+	}
+	#updateUserInformation{
+		margin:0%!important;
+		margin-top:2%!important;
+		margin-bottom:2%!important;
+		width:100%!important;
+	}
+	#userNotification{
+		margin:0%!important;
+		margin-top:2%!important;
+		margin-bottom:2%!important;
+		width:100%!important;	
+	}
+	.imgContainer{
+		margin:auto!important;
+	}
+	.imgSettings{
+		margin:auto!important;
+		width:80%!important;
+	}
+	.leftSideSettings,.rightSideSettings{
+		width:100%!important;
+	}
+	.settingsIptField{
+		width:80%!important;
+	}
+	#jobInfoJobDetails{
+		margin-left:-24%!important;
+		width:105%!important;
+	}	
+	#qrCodeImg{
+		width:55%!important;
+	}
+	#qrCodePosition{
+		right:-5%!important;
+		margin-top:2%!important;
+	}
+	#transactionView{
+		width:100%!important;
+	}
+	#summaryPart{
+		width:100%!important;
+	}
+	.nav-item{
+		font-size:98%!important;
+	}
+/* 	.brandName{
+		margin-top: -16%!important;
+		margin-bottom: -16%!important;
+		margin-right: -26%!important;
+		margin-left:-10%!important;
+		width:70%!important;
+	} */	
+	.activeRequests , .scheduledRequest{
+		width:100%!important;
+	}
+	.activeRequests{
+		border-right:1px solid transparent;
+	}
+	.scheduledRequest{
+		margin-top:6%!important;
+	}
+	.createRequestForm{
+		text-align:left!important;
+		margin-top:5%!important;
+		width:100%!important;
+		margin-left:-0%!important;
+		margin-right:-0%!important;
+	}
+	.requestsTable{
+		border-right:0 solid transparent;
+		padding:0%!important;
+	}
+	.activeRequestsTab{
+		margin-left:0%!important;
+		width:100%!important;
+	}
+	.IdInfo, .nameInfo, .emailInfo, .phoneInfo{
+		text-align:left;
+		margin-left:5%!important;
+		font-size:120%!impotant;
+	}
+	.profileImage{
+		margin-bottom: 1%!important;
+		margin-left:28%!important;
+		width:35%!important;
+		height:auto!important;
+		
+	}
+}
+
+
+
+.listOfUserWithActiveRequests{
+	background:white;
+  	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+.listOfUserWithActiveRequests:hover{
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

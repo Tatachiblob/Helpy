@@ -1,0 +1,96 @@
+body{
+	background:#EEEEEE;
+}
+
+.menuFourBars{
+	background:transparent;
+	color:white;
+	font-size:320%;
+}
+.menuFourBars:hover{
+	color:#428bca;
+}
+.barBtn{
+	background:transparent;
+	border:transparent;	
+	margin-right:1%;
+}
+.barBtn:hover{
+	background:transparent;
+	border:transparent;	
+	color:#428bca;	
+}
+.shoppingCart:hover{
+	background:transparent;
+	color:#428bca;
+	
+}
+.navigationBarSpacing{
+
+}
+.active{
+	border-radius:0!important;
+}
+.leftSide{
+	width:20%!important;
+}
+.rightSide{
+
+}
+.leftSideTitle{
+	width:70%;
+	margin-left:16.9%;
+	padding:10px;
+}
+.rightSideDropdown{
+	width:17%;
+	padding:10px;
+}
+.list-group-item{
+	background:transparent!important;
+	outline:none!important;
+	border:none!important;
+}
+.active{
+	background:#2196F3!important;
+	font-weight:bolder;
+}
+.mainContent{
+	width:100%;
+}
+.addToCartButton{	
+	margin-top:8%;
+}
+.notActive:hover{
+	cursor:default;
+	color:#428bca;
+}
+#menuButton{
+	position:relative;
+	display:inline-block;
+}
+#myDropdown{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;	
+}
+#myDropdown a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#myDropdown a:hover{
+	background:#428bca;
+	color:white;
+}
+.show{
+	display:block;
+}
+.barBtn:focus,.barBtn:active {
+   outline: none !important;
+   box-shadow: none;
+}

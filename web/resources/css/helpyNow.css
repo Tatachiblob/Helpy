@@ -1,0 +1,49 @@
+body{
+	background-color:#e8e8e8;
+}
+.barBtn:hover{
+	background:transparent;
+	border:transparent;	
+	color:#428bca;	
+}
+.shoppingCart:hover{
+	background:transparent;
+	border:transparent;
+	color:#428bca!important;
+}
+#jobRequestTxt{
+	font-size:170%!important;
+	margin:0;
+}
+#taskTxt{
+	font-size:200%!important;
+	margin:0;
+}
+#amountTxt,#etcTxt{
+	font-size:150%!important;
+	margin:0;
+}
+.txtArea{
+	margin-left:3%;
+	margin-right:3%;
+}
+.rightSideTaskTxt{
+	margin-left:2%;
+	font-size:170%;
+	margin-bottom:0;
+}
+.rightSideDateTxt{
+	font-size:130%;
+	margin-left:3%!important;
+}
+.taskTxtPlacement{
+	width:75%;
+}
+.chatBox{
+	height:60%;
+	width:80%;
+	background-color:white;
+	border: 1px solid white;
+	border-radius:10px;
+	
+}

@@ -1,0 +1,43 @@
+.menuFourBars{
+	background:transparent;
+	color:white;
+	font-size:320%;
+}
+.menuFourBars:hover{
+	color:#428bca;
+}
+.barBtn{
+	background:transparent;
+	border:transparent;	
+	margin-right:1%;
+}
+.barBtn:hover{
+	background:transparent;
+	border:transparent;	
+	color:#428bca;	
+}
+#myDropdown{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;	
+}
+#myDropdown a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#myDropdown a:hover{
+	background:#428bca;
+	color:white;
+}
+.show{
+	display:block;
+}
+.barBtn:focus,.barBtn:active {
+   outline: none !important;
+   box-shadow: none;
+}
