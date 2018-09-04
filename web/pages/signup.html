@@ -6,19 +6,97 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="../resources/img/LG_Logo_White.png"  />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-                                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
-                                crossorigin="anonymous" />
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+              crossorigin="anonymous" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Ubuntu" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Ubuntu" />
         <link rel="stylesheet" href="../resources/css/index.css" />
         <link rel="stylesheet" href="../resources/css/navbarHelpyLink.css" />
-        <link rel="stylesheet" href="../resources/css/signUp.css">
-	<link rel="stylesheet" href="../resources/css/popoverStyle.css">
-	<link rel="stylesheet" href="../resources/css/loader.css">
+        <link rel="stylesheet" href="../resources/css/popoverStyle.css">
+        <link rel="stylesheet" href="../resources/css/loader.css">
         <style>
             body{
                 font-family: Quattrocento Sans;
+            }
+            /* Mobile Phone View */
+            @media only screen and (max-width: 768px) {
+                .navigationBarImage{
+                    width: 35%!important;
+                }
+                .bars{
+                    font-size: 200%!important;
+                }
+                .form-control,#telephoneNumber,.alertMessage{
+                    width:95%!important;
+                }
+                .card{
+                    box-shadow:0px 0px 0px 0px!important;
+                    width:100%!important;
+                    border-radius: 2px!important;
+                    margin-bottom:10%;
+                    border:0!important;
+
+                }
+                .formBtn{
+                    width:100%!important;
+                }
+            }
+
+            /*Tablet View */
+            @media only screen and (min-width: 600px) {
+                .formBtn{
+                    margin-left:auto!important;
+                    margin-right:auto!important;
+                }
+                .upperText{
+                    font-size:450%!important;
+                }
+                .navigationBarImage{
+                    width: 20%!important;
+                }
+                .bars{
+                    font-size: 250%!important;
+                    color:white;
+                }
+                .form-control,#telephoneNumber,.alertMessage{
+                    width:84%!important;
+                }
+                .card{
+                    box-shadow:0px 0px 0px 0px !important;
+                    width:90%!important;
+                    border-radius: 2px!important;
+                    margin-bottom:10%;
+                    border:0!important;
+                }
+                .formBtn{
+                    width:100%!important;
+                }
+            }
+
+            /* Desktop View */
+            @media only screen and (min-width: 700px) {
+                .upperText{
+                    font-size:250%!important;
+                }
+                .navigationBarImage{
+                    width: 15%!important;
+                }
+                .bars{
+                    font-size: 100%!important;
+                    color:white;
+                }
+                .form-control,#telephoneNumber,.alertMessage{
+                    width:32%;
+                }
+                .card{
+                    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+                    width:31%!important;
+                    border-radius: 2px!important;
+                    margin-bottom:10%;
+                    border:0!important;
+
+                }	
             }
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -109,7 +187,7 @@
                         </div><!-- /#termsAndCondition -->
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="#" class="btn btn-primary registerNow">I Agree and Proceed</a>
+                            <a href="signup.html" class="btn btn-primary registerNow">I Agree and Proceed</a>
                         </div><!-- /.modal-footer -->
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog modal-lg -->
@@ -136,7 +214,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="opportunities.html">Opportunities</a></li>
                         <li class="nav-item"><a class="nav-link" href="adminProfile.html">Administrator Profile</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Log In</a></li>
                         <li class="nav-item"><button id="joinUsBtn" class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#termsAndConditionModal">Join us</button></li>
                     </ul><!-- /.navbar-nav -->
                 </div><!-- /#navbarSupportedContent -->
@@ -164,7 +242,7 @@
                                 <button type="button" class="btn btn-secondary mr-2 cancelButton">Reset</button>
                                 <button type="submit" class="btn btn-primary mr-3 signUp">Sign Up</button>
                             </div><!-- /.d-flex -->
-                            <a href="#" style="text-decoration:none; width:100%!important; margin:auto!important" id="alreadyHaveAccount" class="mt-2">
+                            <a href="login.html" style="text-decoration:none; width:100%!important; margin:auto!important" id="alreadyHaveAccount" class="mt-2">
                                 <small class="text-primary" style="cursor:default;">I already have account</small>
                             </a>
                         </center>
