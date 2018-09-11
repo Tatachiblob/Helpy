@@ -13,77 +13,66 @@
         <link href="resources/sbadmin/dist/css/sb-admin-2.css" rel="stylesheet">
         <!-- Custom Fonts -->
         <link href="resources/sbadmin/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-        <link rel="stylesheet" href="resources/css/animate.min.css" />
-        <link rel="stylesheet" href="resources/css/profile.css" />
-        <link rel="stylesheet" href="resources/css/navbarHelpyLink.css" />
-        <style>
-            .helpyLink{
-                color:rgba(0,0,0,.5)!important;
-            }
-            .nowLink:hover{
-                color:black!important;
-            }
-            .partnersLink:hover{
-                color:black!important;	
-            }
-            .rentsLink:hover{
-                color:black!important;	
-            }
-        </style>-->
     </head>
     <body>
-        
-        <div id="pageContent">
-            <section name="navigationBar">
-                <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-                    <a class="navbar-brand brandName d-none" href="#"></a>
-                    <a class="navbar-brand">
+        <div id="wrapper">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
                         <p style="color:black; font-family:Ubuntu; font-weight:bolder; letter-spacing:-2.0px; font-size: 180%!important; margin-top:-5%!important; margin-bottom:-5%!important;" >
                             help<span class="text-primary">y</span> now
                         </p>
                     </a>
-                    <button class="navbar-toggler btnMenuBars" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:0!important; color:white;">
-                        <span><i class="material-icons bars menuFourBars" style="font-size:190%; color:black;">menu</i></span>
-                    </button>		
-                    <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-                        <div class="navbar-text mr-auto navbarHelpyLink ml-3">
-                            <a href="#" class="mr-2 nowLink helpyLink">Now</a>
-                            <a href="#" class="mr-2 partnersLink helpyLink">Partners</a>
-                            <a href="#" class="mr-2 rentsLink helpyLink">Rent</a>
-                        </div>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><p class="text-light mt-3 txtUserName"></p></li>
-                            <li class="nav-item tapUpCoins" style="cursor:default;"><a class="nav-link">My Balance: {balance} <span id="userBalance"></span></a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="#"><i class="material-icons">home</i></a></li> -->
-                            <!-- <li class="nav-item"><a class="nav-link" href="pages/adminProfile.html">Administrator Profile</a></li> -->
-                            <li class="nav-item active d-sm-block d-md-none" id="requestsNav" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" id="requestsTabHref" href="#">Request</a></li>
-                            <li class="nav-item d-sm-block d-md-none" id="jobsNav" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" id="jobsTabHref">Jobs</a></li>
-                            <li class="nav-item d-sm-block d-md-none" id="transactionsNav" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" id="transactionsTabHref">Transaction</a></li>
-                            <li class="nav-item d-sm-block d-md-none" id="notificationsNav" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" id="notificationsTabHref">Notification</a></li>
-                            <li class="nav-item d-sm-block d-md-none" id="settingsNav" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" id="settingsTabHref">Settings</a></li>
-                            <li class="nav-item d-none d-sm-block d-md-none"><a class="nav-link">|</a></li>
-                            <li class="nav-item"><a class="nav-link logOutLink" style="cursor:default!important;">Log out</a></li>
-                        </ul><!-- /.navbar-nav -->
-                    </div><!-- /.collapse -->
-                </nav><!-- /.navbar -->
-            </section><!-- /.navigationBar -->
-            <div class="sidenav d-none d-lg-block d-xl-block d-xl-none">
-                <center>
-                    <img src="resources/img/person.png" id="userProfileImage" width="50%" height="auto" class="rounded-circle p-1 border border-primary bg-light">
-                    <p class="text-light mt-3 txtUserName">Username</p>
-                </center>
-                <ul class="mt-5 list-group">
-                    <li class="list-group-item activeSideNavigation" id="requestsTab"><i class="material-icons" style="position:relative; top:6px!important; right:10px!important;">home</i>Request</li>
-                    <li class="list-group-item" id="jobsTab" ><i class="material-icons" style="position:relative; top:6px!important; right:10px!important;">business_center</i>Jobs</li>
-                    <li class="list-group-item" id="transactionsTab" ><i class="material-icons" style="position:relative; top:6px!important; right:10px!important;">person_pin</i>Transaction</li>
-                    <li class="list-group-item" id="notificationsTab" ><i class="material-icons" style="position:relative; top:6px!important; right:10px!important;">notifications</i>Notification&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span class="badge badge-danger numberOfNotification" style="font-size:70%!important; position:relative; top:-1px!important;">1</span></li>
-                    <li class="list-group-item" id="settingsTab"><i class="material-icons" style="position:relative; top:6px!important; right:10px!important;">settings</i>Settings</li>
+                </div><!-- /.navbar-header -->
+
+                <ul class="nav navbar-top-links navbar-right">
+                    <li><a href="#"><i class="fa fa-money fa-fw"></i> My Balance: {balance}</a></li>
+                    <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Log out</a></li>
                 </ul>
-            </div><!-- /.sidenav -->
-        </div><!-- /#pageContent -->
-        
+                <!-- /.navbar-top-links -->
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                            <li><a><div class="text-center"><span class="chat-img text-center"><img src="resources/img/boy.png" class="img-circle" height="95" width="95" /></span></div> <div class="text-center">{username}</div></a></li>
+                            <li><a href="#" class="active"><i class="fa fa-dashboard fa-fw"></i> Request</a></li>
+                            <li><a href="#"><i class="fa fa-suitcase fa-fw"></i> Jobs</a></li>
+                            <li><a href="#"><i class="fa fa-credit-card fa-fw"></i> Transaction</a></li>
+                            <li><a href="#"><i class="fa fa-bell-o fa-fw"></i> Notification</a></li>
+                            <li><a href="#"><i class="fa fa-cog fa-fw"></i> Settings</a></li>
+                        </ul>
+                    </div><!-- /.sidebar-collapse -->
+                </div><!-- /.navbar-static-side -->
+            </nav>
+            
+            <div id="page-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="page-header">Blank</h1>
+                        </div><!-- /.col-lg-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div><!-- /#page-wrapper -->
+            
+        </div><!-- /#wrapper -->
+        <!-- jQuery -->
+        <script src="resources/sbadmin/vendor/jquery/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="resources/sbadmin/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="resources/sbadmin/vendor/metisMenu/metisMenu.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="resources/sbadmin/dist/js/sb-admin-2.js"></script>
     </body>
 </html>
